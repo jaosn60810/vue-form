@@ -155,7 +155,7 @@
                 class="form-check-input"
                 type="checkbox"
                 id="inlineCheckbox1"
-                value="option1"
+                value="每週一清掃家裡+100"
                 name="entry.690287219"
               />
               <label class="form-check-label" for="inlineCheckbox1"
@@ -169,7 +169,7 @@
                 class="form-check-input"
                 type="checkbox"
                 id="inlineCheckbox2"
-                value="option2"
+                value="按摩+50"
                 name="entry.690287219"
               />
               <label class="form-check-label" for="inlineCheckbox2"
@@ -183,7 +183,7 @@
                 class="form-check-input"
                 type="checkbox"
                 id="inlineCheckbox3"
-                value="option2"
+                value="聽你說話+150"
                 name="entry.690287219"
               />
               <label class="form-check-label" for="inlineCheckbox3"
