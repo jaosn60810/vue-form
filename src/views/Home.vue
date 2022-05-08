@@ -1,9 +1,8 @@
 <template>
   <!-- banner -->
-  <header class="py-7" style="background-image: url(./img/bg_paper.png)">
+  <header class="pt-5">
     <div class="container text-center">
-      <h4 class="fw-bold text-info h5">HAPPY LIFE</h4>
-      <h2 class="fw-bold">開始當個小懶蟲</h2>
+      <h2 class="fw-bold text-info">表單回饋</h2>
     </div>
   </header>
 
