@@ -1,49 +1,4 @@
 <template>
-  <!-- 導覽列 -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white">
-    <div class="container">
-      <!-- Logo -->
-      <a class="navbar-brand fs-4" href="#"
-        ><i class="bi bi-record-fill text-info"></i
-        ><span class="text-dark fw-bold">小懶蟲</span></a
-      >
-
-      <!-- 漢堡 -->
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <!-- 導覽列連結 -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item mx-3">
-            <a class="nav-link" aria-current="page" href="index.html">首頁</a>
-          </li>
-          <li class="nav-item mx-3">
-            <a class="nav-link" href="index.html#services">服務介紹</a>
-          </li>
-          <li class="nav-item mx-3">
-            <a class="nav-link" href="index.html#servicesCost">方案費用</a>
-          </li>
-          <li class="nav-item mx-3">
-            <a class="nav-link" href="questionAndAnswer.html">常見問題</a>
-          </li>
-          <li class="nav-item mx-3">
-            <a class="btn btn-info text-light" href="payment.html">購買方案</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
   <!-- banner -->
   <header class="py-7" style="background-image: url(./img/bg_paper.png)">
     <div class="container text-center">
@@ -155,11 +110,11 @@
                 class="form-check-input"
                 type="checkbox"
                 id="inlineCheckbox1"
-                value="每週一清掃家裡+100"
+                value="方案一"
                 name="entry.690287219"
               />
               <label class="form-check-label" for="inlineCheckbox1"
-                >每週一清掃家裡+100</label
+                >方案一</label
               >
             </div>
 
@@ -169,11 +124,11 @@
                 class="form-check-input"
                 type="checkbox"
                 id="inlineCheckbox2"
-                value="按摩+50"
+                value="方案二"
                 name="entry.690287219"
               />
               <label class="form-check-label" for="inlineCheckbox2"
-                >按摩+50</label
+                >方案二</label
               >
             </div>
 
@@ -183,11 +138,11 @@
                 class="form-check-input"
                 type="checkbox"
                 id="inlineCheckbox3"
-                value="聽你說話+150"
+                value="方案三"
                 name="entry.690287219"
               />
               <label class="form-check-label" for="inlineCheckbox3"
-                >聽你說話+150</label
+                >方案三</label
               >
             </div>
           </div>
@@ -216,54 +171,9 @@
     </div>
   </section>
 
-  <!-- 協助區域 -->
-  <section class="py-5 bg-light">
-    <div class="container">
-      <h2 class="text-center mb-4 fw-bold">需要其他協助嗎？</h2>
-
-      <!-- 卡片群組 -->
-      <div
-        class="row row-cols-1 row-cols-lg-3 justify-content-center gy-4 gy-lg-0"
-      >
-        <!-- 電話 -->
-        <div class="col help-card">
-          <div class="card border-0 shadow">
-            <div class="card-body text-center py-4 fs-4">
-              <i class="bi bi-telephone-fill text-info"></i>
-              <span>07-555-666</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- FB -->
-        <a href="#" class="col help-card text-decoration-none text-dark">
-          <div class="card border-0 shadow">
-            <div class="card-body text-center py-4 fs-4">
-              <i class="bi bi-facebook text-info"></i>
-              <span>我就是個小懶蟲</span>
-            </div>
-          </div>
-        </a>
-
-        <!-- 常見問題 -->
-        <a
-          href="questionAndAnswer.html"
-          class="col help-card text-decoration-none text-dark"
-        >
-          <div class="card border-0 shadow">
-            <div class="card-body text-center py-4 fs-4">
-              <i class="bi bi-question-lg text-info"></i>
-              <span>常見問題</span>
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
-  </section>
-
   <footer class="bg-secondary">
     <p class="text-center text-white lh-lg py-3 m-0 fs-s-14">
-      Copyright © 2021 小懶蟲.All rights reserved.
+      Copyright © 2022 Jason.All rights reserved.
     </p>
   </footer>
 </template>
